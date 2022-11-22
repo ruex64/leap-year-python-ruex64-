@@ -1,5 +1,7 @@
-year = int(input("enter the starting year: "))
-year2 = int(input("enter the ending year: "))        
+a1= input("enter the starting year in the format dd/mm/yyyy : ")
+b1= input("enter the ending year in the format dd/mm/yyyy : ")        
+year=int(a1[-4:])
+year2=int(b1[-4:])
 s = []                                             
 b = []                                             
 for i in range(year,(year2)+1):                    
